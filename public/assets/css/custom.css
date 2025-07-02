@@ -1,0 +1,6 @@
+.owl-carousel.nav-lg.rounded-nav .owl-nav button.owl-prev, .owl-carousel.nav-lg.rounded-nav .owl-nav button.owl-next{
+    background-color: red !important;
+} 
+html.side-panel .side-panel-wrapper{
+    width: 450px !important;
+}
