@@ -7,10 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Accura Lens</title>
+    <title>{{ $title ?? '' }}</title>
 
     <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Accura Lens">
+    <meta name="description" content="{{ $description ?? '' }}">
     <meta name="author" content="cybernetics.me">
 
     <!-- Favicon -->
@@ -64,7 +64,7 @@
 
             </div>
 
-            <a href="{{ route('index') }}" class="btn w-100  btn-secondary border-0 text-2-5 font-weight-semi-bold btn-px-4 btn-py-3 my-3">Contact Us</a>
+            <a href="{{ route('contact') }}" class="btn w-100  btn-secondary border-0 text-2-5 font-weight-semi-bold btn-px-4 btn-py-3 my-3">Contact Us</a>
 
             <h4 class="text-color-primary text-4 pt-3">Follow Us</h4>
             <ul class="social-icons social-icons-clean social-icons-medium">
@@ -149,15 +149,15 @@
                         <h4 class="font-weight-bold text-color-dark text-4-5 mb-3">CUSTOMER SERVICE</h4>
                         <ul class="list list-unstyled d-flex flex-column flex-sm-row justify-content-sm-center justify-content-lg-start mb-0">
                             <li class="line-height-3 mb-0">
-                                <a href="#" class="text-decoration-none text-color-hover-primary">Help & FAQs</a>
+                                <a href="{{ route('contact') }}" class="text-decoration-none text-color-hover-primary">Help & FAQs</a>
                             </li>
                             <li class="line-height-3 border border-top-0 border-bottom-0 px-sm-3 mx-sm-3 mt-2 mt-sm-0 mb-0">
                                 <a href="#" class="text-decoration-none text-color-hover-primary">Order Tracking</a>
                             </li>
-                            <li class="line-height-3 mt-2 mt-sm-0 mb-0">
-                                <a href="#" class="text-decoration-none text-color-hover-primary">Shipping & Delivery</a>
-                            </li>
                         </ul>
+                    </div>
+                    <div class="col-lg-4 col-xl-3 offset-xl-1">
+
                     </div>
                     <div class="col-lg-3 col-xl-2 offset-xl-2 mb-4 mb-lg-0">
                         <h4 class="font-weight-bold text-color-dark text-4-5 mb-3">SOCIAL MEDIA</h4>
@@ -166,16 +166,6 @@
                             <li class="social-icons-x"><a href="http://www.x.com/" target="_blank" title="X"><i class="fab fa-x-twitter"></i></a></li>
                             <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
-                    </div>
-                    <div class="col-lg-4 col-xl-3 offset-xl-1">
-                        <h4 class="font-weight-bold text-color-dark text-4-5 mb-3">PAYMENT METHODS</h4>
-                        <div class="payment-cc payment-cc-no-hover-effect text-color-dark justify-content-center justify-content-lg-start">
-                            <i class="fab fa-cc-visa"></i>
-                            <i class="fab fa-cc-paypal"></i>
-                            <i class="fab fa-cc-stripe"></i>
-                            <i class="fab fa-cc-mastercard"></i>
-                            <i class="fab fa-cc-apple-pay"></i>
-                        </div>
                     </div>
                 </div>
             </div>

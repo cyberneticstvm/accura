@@ -17,11 +17,6 @@
                         <strong class="font-weight-extra-bold text-3 text-sm-3-4 text-md-4 text-lg-3 text-xl-4 d-inline-block negative-ls-2 position-relative z-index-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1200">Accura Lenses</strong>
                     </h1>
                     <p class="font-weight-light text-5 text-center text-sm-end mb-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1400">The most advanced BlueBlock lenses</p>
-                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-end mb-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1600">
-                        <span class="font-weight-light text-4">Starting at</span>
-                        <span class="text-color-primary font-weight-bold text-11 my-3 my-sm-0 mx-4">$350</span>
-                        <a href="demo-product-landing-checkout.html" class="btn btn-primary btn-rounded font-weight-bold text-4 px-5 py-3">Buy Now!</a>
-                    </div>
                     <a href="#" class="d-inline-flex align-items-center text-color-default text-color-hover-primary text-decoration-none font-weight-medium ms-3 ms-sm-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800">Learn More <i class="icons icon-arrow-right text-1 ms-2"></i></a>
                 </div>
                 <div class="col-lg-6 align-self-xl-stretch position-relative order-1 order-lg-2">
@@ -128,7 +123,7 @@
         </div>
     </div>
 
-    <div class="container container-xl-custom position-relative overflow-hidden pb-5">
+    <!-- <div class="container container-xl-custom position-relative overflow-hidden pb-5">
         <svg class="position-absolute w-100 h-100 z-index-2 p-events-none d-none d-lg-block appear-animation" data-appear-animation="customSVGLineAnimTwo" data-appear-animation-delay="200" data-appear-animation-duration="3s" data-plugin-options="{'accY': -300, 'forceAnimation': true}" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" style="bottom: -80px; left: 0;">
             <circle cx="60" cy="90" r="90" stroke="#edeeee" stroke-width="0.3" fill="transparent" />
         </svg>
@@ -162,7 +157,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <section class="section section-height-3 bg-dark border-0 m-0" id="specifications">
         <div class="container">
@@ -176,7 +171,7 @@
                     <h2 class="text-color-light font-weight-bold ls-0 text-9 mb-4">Specifications</h2>
                     <p class="text-3-5 text-color-light opacity-5">Accura BlueBlock is almost clear lens unlike other Blue Light protection products currently in the marketplace.</p>
                 </div>
-                <div class="col-lg-5 col-xl-4 mb-5 mb-lg-0 pt-lg-5">
+                <!--<div class="col-lg-5 col-xl-4 mb-5 mb-lg-0 pt-lg-5">
                     <div class="d-flex flex-wrap align-items-center justify-content-lg-end">
                         <span class="text-color-primary font-weight-bold text-11 line-height-1 me-4">
                             <span class="d-block text-color-light custom-font-size-2 line-height-3 font-weight-light opacity-5">Starting at</span>
@@ -184,7 +179,7 @@
                         </span>
                         <a href="demo-product-landing-checkout.html" class="btn btn-primary btn-rounded font-weight-bold text-3-5 px-5 py-3">Buy Now!</a>
                     </div>
-                </div>
+                </div>-->
             </div>
             <div class="row">
                 <div class="col">
